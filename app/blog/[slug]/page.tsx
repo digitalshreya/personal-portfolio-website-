@@ -7,6 +7,7 @@ import { CTA, Eyebrow } from "@/components/sections";
 type ArticleProps = { params: Promise<{ slug: string }> };
 
 export function generateStaticParams() { return articles.map(article => ({ slug: article.slug })); }
+export const dynamicParams = false;
 
 export async function generateMetadata({ params }: ArticleProps): Promise<Metadata> {
   const { slug } = await params;

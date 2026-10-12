@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="72" viewBox="0 0 360 72" role="img" aria-labelledby="title desc">
+  <title id="title">DIGITAL SHREYA</title>
+  <desc id="desc">Yellow rising signal bars and a small sparkle beside the DIGITAL SHREYA wordmark.</desc>
+  <g fill="#F0CB43">
+    <rect x="7" y="42" width="9" height="21" rx="4.5"/>
+    <rect x="22" y="32" width="9" height="31" rx="4.5"/>
+    <rect x="37" y="21" width="9" height="42" rx="4.5"/>
+    <path d="M57 7l3.1 8.2 8.2 3.1-8.2 3.1-3.1 8.2-3.1-8.2-8.2-3.1 8.2-3.1L57 7z"/>
+  </g>
+  <text x="82" y="49" fill="#242A25" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" letter-spacing="1.35">DIGITAL SHREYA</text>
+</svg>

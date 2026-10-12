@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Header, Footer } from "@/components/chrome";
 
-const base = process.env.NEXT_PUBLIC_SITE_URL || "https://example.com";
+const base = process.env.NEXT_PUBLIC_SITE_URL || process.env.CF_PAGES_URL || "https://digital-shreya-portfolio.pages.dev";
 export const metadata: Metadata = {
   metadataBase: new URL(base),
   title: { default: "DIGITAL SHREYA | AI Marketing Expert", template: "%s | DIGITAL SHREYA" },
